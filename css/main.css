@@ -85,9 +85,25 @@ header li{
 header{
   justify-content: space-between;
   align-items: center;
-  padding: 1em 2em; 
+  padding: 1em 2em;
 }
 header a {
   text-decoration: none;
 }
 /*END header styles*/
+.grid {
+display: grid;
+grid-template-columns: 1fr 2fr;
+grid-template-rows: 1fr;
+grid-column-gap: 0px;
+grid-row-gap: 0px;
+}
+.half1{
+  background-color: green;
+  width: auto;
+  height: 400px
+}
+.half2{
+  background-color: purple;
+  width: auto;
+}
