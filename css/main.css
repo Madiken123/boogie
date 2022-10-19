@@ -72,3 +72,22 @@ select {
     scroll-behavior: auto !important;
   }
 }
+ /*global styles*/
+ /*END global styles*/
+/*header styles*/
+header, nav ul{
+  display: flex;
+}
+header li{
+  list-style: none;
+  margin-right: 1em;
+}
+header{
+  justify-content: space-between;
+  align-items: center;
+  padding: 1em 2em; 
+}
+header a {
+  text-decoration: none;
+}
+/*END header styles*/
